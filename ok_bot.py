@@ -53,4 +53,4 @@ print('Listening to Twitter stream')
 
 stream_listener = StreamListener()
 stream = tweepy.Stream(auth=api.auth, listener=stream_listener)
-stream.filter(track=["ok"], async=True)
+stream.filter(track=["ok","ok?"], async=True)
