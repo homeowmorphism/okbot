@@ -9,7 +9,7 @@ Forked from [Abe Hmiel](https://gist.github.com/abehmiel)'s gist [streaming_boy.
 
 2. Go to Keys and Access Tokens.
 
-3. In [creds.py](https://github.com/homeowmorphism/okbot/blob/master/creds.py), input the keys 
+3. In [creds.py](https://github.com/homeowmorphism/okbot/blob/master/creds.py), copy-paste the keys into the corresponding variables.
 
 
 ## Requirements 
