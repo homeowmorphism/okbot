@@ -23,6 +23,15 @@ the console will print the sample response.
 # api.update_status(status=statusMsg)
 ```
 
+and run the code in python again.
+
+``` bash
+$ python ok_bot.py
+```
+
+## Exit
+Ctrl+D should work if you are using Linux. If you are using a Mac, Press Ctrl+Z. 
+
 ## Requirements 
 tweepy library.
 

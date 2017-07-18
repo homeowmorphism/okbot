@@ -7,7 +7,7 @@ auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
-matches = ["tell me it's going to be ok", "is it going to be ok?"]
+matches = ["tell me it's going to be ok", "going to be ok?"]
 
 phrases = ["It's going to be ok."]
            
