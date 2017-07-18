@@ -46,6 +46,9 @@ then "Hello", "hEllO" and "hello" all count as a match. Same with "Bonjour", "bO
 
 The variable **phrases** are the phrases the bot will reply, selected at random. Similarly to match, it is given as a list of strings.
 
+```
+phrases = ["Hello back!", "Hi!" ]
+```
 Finally, **stream.filter(track=[**inputs**], async=True)** prefilters the stream for potential matches. 
 
 The OK Bot filters for the word "ok".
