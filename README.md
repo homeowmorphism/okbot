@@ -9,14 +9,25 @@ Forked from [Abe Hmiel](https://gist.github.com/abehmiel)'s gist [streaming_boy.
 
 2. Go to Keys and Access Tokens.
 
-3. In [creds.py](https://github.com/homeowmorphism/okbot/blob/master/creds.py), copy-paste the keys into the corresponding variables.
+3. In [creds.py](https://github.com/homeowmorphism/okbot/blob/master/creds.py), copy-paste the keys into the corresponding variables and save the file.
 
+4. Test the bot, type in terminal
+``` bash
+$ python ok_bot.py
+```
+the console will print the sample response. 
+
+5. To run the bot in real line, uncomment the line 
+
+``` python
+# api.update_status(status=statusMsg)
+```
 
 ## Requirements 
 tweepy library.
 
 ```
-pip install tweepy
+$ pip install tweepy
 ```
 
 
