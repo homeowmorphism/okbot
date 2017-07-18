@@ -7,7 +7,7 @@ auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
-matches = ["tell me it's going to be ok", "going to be ok?"]
+matches = ["tell me it's going to be ok", "going to be ok?","am i going to be ok?"]
 
 phrases = ["It's going to be ok."]
            
@@ -37,7 +37,7 @@ class StreamListener(tweepy.StreamListener):
                         url = 'https://twitter.com/' + status.user.screen_name + '/status/' + status.id_str
                         pickPhrase = phrases[randint(0, len(phrases)-1)]
                         statusMsg = pickPhrase + ' ' + url
-                        # api.update_status(status=statusMsg)
+                        api.update_status(status=statusMsg)
                         print(statusMsg)
                         # return to stream, don't look through other matches
                         # to avoid multiple-matches
