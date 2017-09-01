@@ -6,7 +6,14 @@ A bot that retweets you it's going to be ok when you need to hear it.
 
 Forked from [Abe Hmiel](https://gist.github.com/abehmiel)'s gist [streaming_boy.py](https://gist.github.com/abehmiel/da50b27796062f6b71c8585fa07d66c4).
 
-# How To Use
+## Requirements 
+tweepy library.
+
+```
+$ pip install tweepy
+```
+
+## How To Use
 1. Create new app on [apps.twitter.com](https://apps.twitter.com/).
 
 2. Go to Keys and Access Tokens.
@@ -58,12 +65,3 @@ The OK Bot filters for the word "ok".
 ```
 stream.filter(track=["ok"], async=True)
 ```
-
-# Requirements 
-tweepy library.
-
-```
-$ pip install tweepy
-```
-
-
