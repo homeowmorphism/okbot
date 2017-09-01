@@ -33,7 +33,7 @@ $ python ok_bot.py
 
 ## Exit
 Ctrl+D should work if you are using Linux.
-If you are using a Mac, press Ctrl+Z. 
+If you are using a Mac, press Ctrl+Z or Ctrl \.
 
 ## Customize
 There are three variables that need to changed for customization. 
