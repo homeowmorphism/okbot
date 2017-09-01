@@ -1,5 +1,7 @@
 # OK Bot
 
+*Status: Polished. Wanna swap this for a better bot later :)*
+
 A bot that retweets you it's going to be ok when you need to hear it. 
 
 Forked from [Abe Hmiel](https://gist.github.com/abehmiel)'s gist [streaming_boy.py](https://gist.github.com/abehmiel/da50b27796062f6b71c8585fa07d66c4).
